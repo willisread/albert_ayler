@@ -60,6 +60,11 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  
+}
+
 blockquote {
   font-size: 1.5em;
   border-top: black solid 1px;
