@@ -62,7 +62,11 @@ li {
 
 a {
   text-decoration: none;
-  
+  color: #f0810f;
+}
+
+a:hover {
+  color:	#83ba43;
 }
 
 blockquote {
@@ -104,4 +108,27 @@ footer {
   color: black;
   margin-top: 20px;
   margin-right: 10px;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+  
+ #tribute-info {
+		width: 80%;
+		margin: 0 auto;
+  }
+  
+  #title {
+    font-size: 4.4em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
 }
