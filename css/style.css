@@ -91,6 +91,13 @@ footer {
   grid-template-columns: 100%;
 }
 
+#hamburger {
+  font-size: 2em;
+  position: absolute;
+  margin-left: 30px;
+  top: 30px;
+}
+
 #title {
   text-transform: uppercase;
   letter-spacing: .4em;
@@ -118,7 +125,8 @@ footer {
   
  #tribute-info {
 		width: 80%;
-		margin: 0 auto;
+    margin: 0 auto;
+    margin-top: 40px;
   }
   
   #title {
