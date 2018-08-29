@@ -13,9 +13,26 @@
             <i id="hamburger" class="fas fa-bars"></i>
             <h1 id="title">Content Survey</h1>
             <p id="description">Thanks for stopping by and checking out this Albert Ayler page. If you have a minute we'd love to hear your thoughts, ideas, opinions and feedback regarding the content. All information will be used for the sole purpose of improving the content on this website. Thank you for your cooperation and help in improving the site.</p>
-            <form action="" method="post">
+            <form id="survey-form" action="feedback.html" method="post">
+                <h2>Feedback</h2>
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="user_name">
+                <label for="mail">Email:</label>
+                <input id="mail" type="email" name="user_email">
+                <label for="age">Age:</label>
+                <input id="age" type="number" name="user_age">
+                <label for="feedback">Feedback & Comments</label>
+                <textarea id="feedback" name="user_feedback"></textarea>
 
+                <button type="submit">Submit</button>
             </form>
+            <footer class="main-footer">
+                <a href="https://twitter.com/willisjazz"><i class="fab fa-twitter-square fa-3x social-icon"></i></a>
+                <a href="https://www.facebook.com/willis.read.7/"><i class="fab fa-facebook-square fa-3x social-icon"></i></a>
+                <a href="https://www.instagram.com/willisread/"><i class="fab fa-instagram fa-3x social-icon"></i></a>
+                <a href="https://github.com/willisread"><i class="fab fa-github-square fa-3x social-icon"></i></a>
+                <p>&copy;2018 William T. McCormick Built It.</p>
+            </footer>
         </div> <!-- /#main -->
     </body>
 </html>
