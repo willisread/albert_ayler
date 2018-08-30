@@ -84,6 +84,13 @@ footer {
   background-color: beige;
 }
 
+form {
+  max-width: 60%;
+  margin: 30px auto;
+  padding: 20px 20px;
+  border: black solid 2px;
+}
+
 #main {
   min-height: 100%;
   display: grid;
@@ -115,6 +122,10 @@ footer {
   color: black;
   margin-top: 20px;
   margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin: 0 4px 8px 0;
 }
 
 /* ================================= 
