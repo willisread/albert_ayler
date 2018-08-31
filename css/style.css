@@ -85,10 +85,28 @@ footer {
 }
 
 form {
-  max-width: 60%;
+  max-width: 80%;
   margin: 30px auto;
   padding: 20px 20px;
   border: black solid 2px;
+}
+
+label {
+  width: 90%;
+  justify-content: left;
+  display: inline-block;
+}
+
+input {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 90%;
+}
+
+button {
+  margin: 30px 0;
+  padding: .7rem;
+  width: 60%;
 }
 
 #main {
@@ -116,6 +134,14 @@ form {
   max-width: 100%;
   display: table-caption;
   caption-side: block;
+}
+
+#country {
+  width: 50%;
+}
+
+#invitation {
+  margin-top: 20px;
 }
 
 .social-icon {
