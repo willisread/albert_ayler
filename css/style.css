@@ -85,21 +85,20 @@ footer {
 }
 
 form {
-  max-width: 80%;
-  margin: 30px auto;
+  width: 80%;
+  margin: 30px;
   padding: 20px 20px;
   border: black solid 2px;
 }
 
 label {
-  width: 90%;
-  justify-content: left;
-  display: inline-block;
+  display: block;
+  float: left;
 }
 
 input {
   margin-bottom: 30px;
-  display: inline-block;
+  display: block;
   width: 90%;
 }
 
@@ -134,6 +133,10 @@ button {
   max-width: 100%;
   display: table-caption;
   caption-side: block;
+}
+
+#feedback_title {
+  border-bottom: 1px black solid;
 }
 
 #country {
