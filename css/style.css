@@ -85,7 +85,7 @@ footer {
 }
 
 form {
-  width: 80%;
+  width: 80% auto;
   margin: 30px;
   padding: 20px 20px;
   border: black solid 2px;
@@ -96,22 +96,22 @@ label {
   clear: none;
   display: block;
   padding: 2px 1em 0 0;
+  margin-bottom: 5px;
 }
 
 input {
   margin-bottom: 30px;
+  padding: .7rem;
   display: block;
   width: 90%;
 }
 
 textarea {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  padding: 4rem;
   display: block;
   width: 90%;
-}
-
-fieldset {
-  overflow: hidden;
+  resize: vertical;
 }
 
 input[type="radio"] {
@@ -121,7 +121,7 @@ input[type="radio"] {
 button {
   margin: 30px 0;
   padding: .7rem;
-  width: 60%;
+  width: 90%;
 }
 
 #main {
@@ -149,10 +149,6 @@ button {
   max-width: 100%;
   display: table-caption;
   caption-side: block;
-}
-
-#feedback_title {
-  border-bottom: 1px black solid;
 }
 
 #country {

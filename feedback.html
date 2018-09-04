@@ -22,7 +22,7 @@
                 <label for="mail">Email:</label>
                 <input id="mail" type="email" name="user_email">
                 <label for="country">Country:</label>
-                <select id="country">
+                <select id="country" name="country">
                     <option value="AF">Afghanistan</option>
                     <option value="AX">Åland Islands</option>
                     <option value="AL">Albania</option>
@@ -272,13 +272,12 @@
                     <option value="YE">Yemen</option>
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabwe</option>
-                    </select>
-                <label for="feedback">Feedback & Comments</label>
+                </select>
+                <label for="feedback">Feedback & Comments:</label>
                 <textarea id="feedback" name="user_feedback"></textarea>
-                <label id="invitation">Join our mailing list to stay up on any content changes!</label>
-                <input id="mailing_list" type="radio" value="yes" name="user_mailing_response"><label for="yes">Yes, please add me to your mailing list!</label>
-                <input id="mailing_list" type="radio" value="no" name="user_mailing_response"><label for="no">No thanks, I'd rather not be added at this time.</label>
-
+                <label id="invitation">Would you like to be added to our mailing list for updates to the Albert Ayler page?</label>
+                <input id="mailing_list" type="radio" value="yes" name="user_mailing_response"><label for="yes">Yes, please add me.</label>
+                <input id="mailing_list" type="radio" value="no" name="user_mailing_response"><label for="no">No, not at this time.</label>              
                 <button type="submit">Submit</button>
             </form>
             <footer class="main-footer">
