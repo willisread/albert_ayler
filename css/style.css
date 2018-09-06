@@ -157,6 +157,10 @@ button {
   margin-bottom: 30px;
 }
 
+#albumNumber {
+  width: 3.7em;
+}
+
 #invitation {
   margin-top: 20px;
 }
